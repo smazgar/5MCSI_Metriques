@@ -34,11 +34,7 @@ def meteo():
  @app.route("/histogramme/")
  def monhistogramme():
     return render_template("histogramme.html")
-  
- @app.route("/contact/")
- def MaPremiereAPI():
-    return "<h2>Ma page de contact</h2>"
-  
+   
 if __name__ == "__main__":
   app.run(debug=True)
 
