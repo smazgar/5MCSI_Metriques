@@ -6,7 +6,7 @@ from urllib.request import urlopen
 import sqlite3
                                                                                                                                        
 app = Flask(__name__)                                                                                                                  
-
+# h
 @app.route("/contact/")
 def MaPremiereAPI():
     return "<h2>Ma page de contact</h2>"
