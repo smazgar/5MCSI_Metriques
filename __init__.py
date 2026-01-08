@@ -35,7 +35,7 @@ def mongraphique():
 def monhistogramme():
     return render_template("histogramme.html")
   
-@app.route("/contact/") #a jour
+@app.route("/contact/") 
 def MaPremiereAPI():
     return render_template("contact.html")
   
