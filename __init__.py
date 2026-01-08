@@ -7,7 +7,7 @@ import sqlite3
                                                                                                                                        
 app = Flask(__name__)                                                                                                                  
 
-@app.route("/contact/") #a jour
+@app.route("/contact/")
 def MaPremiereAPI():
     return render_template("contact.html")
   
