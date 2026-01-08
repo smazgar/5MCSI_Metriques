@@ -27,16 +27,16 @@ def meteo():
         results.append({'Jour': dt_value, 'temp': temp_day_value})
     return jsonify(results=results)
   
-@app.route("/rapport/")
-def mongraphique():
+ @app.route("/rapport/")
+ def mongraphique():
     return render_template("graphique.html")
 
-@app.route("/histogramme/")
-def monhistogramme():
+ @app.route("/histogramme/")
+ def monhistogramme():
     return render_template("histogramme.html")
   
-@app.route("/contact/")
-def MaPremiereAPI():
+ @app.route("/contact/")
+ def MaPremiereAPI():
     return "<h2>Ma page de contact</h2>"
   
 if __name__ == "__main__":
